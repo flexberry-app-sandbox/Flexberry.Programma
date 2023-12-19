@@ -26,13 +26,12 @@ export default Controller.extend({
               link: 'i-i-s-programma-должность-l',
               caption: i18n.t('forms.application.sitemap.курсовая.сотрудники.i-i-s-programma-должность-l.caption'),
               title: i18n.t('forms.application.sitemap.курсовая.сотрудники.i-i-s-programma-должность-l.title'),
-              icon: 'calendar',
+              icon: 'tags',
               children: null
             }, {
               link: 'i-i-s-programma-сотрудник-l',
               caption: i18n.t('forms.application.sitemap.курсовая.сотрудники.i-i-s-programma-сотрудник-l.caption'),
               title: i18n.t('forms.application.sitemap.курсовая.сотрудники.i-i-s-programma-сотрудник-l.title'),
-              icon: 'paperclip',
               children: null
             }]
           }, {
@@ -43,25 +42,25 @@ export default Controller.extend({
               link: 'i-i-s-programma-серверная-l',
               caption: i18n.t('forms.application.sitemap.курсовая.серверная-комната.i-i-s-programma-серверная-l.caption'),
               title: i18n.t('forms.application.sitemap.курсовая.серверная-комната.i-i-s-programma-серверная-l.title'),
-              icon: 'folder',
+              icon: 'suitcase',
               children: null
             }, {
               link: 'i-i-s-programma-расположение-l',
               caption: i18n.t('forms.application.sitemap.курсовая.серверная-комната.i-i-s-programma-расположение-l.caption'),
               title: i18n.t('forms.application.sitemap.курсовая.серверная-комната.i-i-s-programma-расположение-l.title'),
-              icon: 'chart bar',
+              icon: 'book',
               children: null
             }, {
               link: 'i-i-s-programma-сенсоры-l',
               caption: i18n.t('forms.application.sitemap.курсовая.серверная-комната.i-i-s-programma-сенсоры-l.caption'),
               title: i18n.t('forms.application.sitemap.курсовая.серверная-комната.i-i-s-programma-сенсоры-l.title'),
-              icon: 'folder open',
+              icon: 'address card',
               children: null
             }, {
               link: 'i-i-s-programma-отчет-о-сервере-l',
               caption: i18n.t('forms.application.sitemap.курсовая.серверная-комната.i-i-s-programma-отчет-о-сервере-l.caption'),
               title: i18n.t('forms.application.sitemap.курсовая.серверная-комната.i-i-s-programma-отчет-о-сервере-l.title'),
-              icon: 'calendar',
+              icon: 'chart line',
               children: null
             }]
           }]

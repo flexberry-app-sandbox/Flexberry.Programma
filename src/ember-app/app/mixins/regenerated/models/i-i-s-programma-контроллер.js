@@ -43,6 +43,10 @@ export let ValidationRules = {
 
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('КонтроллерE', 'i-i-s-programma-контроллер', {
-    модель: attr('Модель', { index: 0 })
+    модель: attr('Модель', { index: 0 }),
+    idКонтроллера: attr('', { index: 1 }),
+    сенсоры: belongsTo('i-i-s-programma-сенсоры', 'Тип Датчика', {
+      тип: attr('', { index: 3 })
+    }, { index: 2 })
   });
 };

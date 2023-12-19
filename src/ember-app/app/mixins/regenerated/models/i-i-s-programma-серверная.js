@@ -73,7 +73,11 @@ export let defineProjections = function (modelClass) {
       фамилия: attr('', { index: 5 })
     }, { index: 4, displayMemberPath: 'имя' }),
     контроллер: hasMany('i-i-s-programma-контроллер', 'Контроллер', {
-      модель: attr('Модель', { index: 0 })
+      модель: attr('Модель', { index: 0 }),
+      idКонтроллера: attr('', { index: 1 }),
+      сенсоры: belongsTo('i-i-s-programma-сенсоры', 'Тип Датчика', {
+        тип: attr('', { index: 3 })
+      }, { index: 2 })
     })
   });
 

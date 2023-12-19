@@ -7,6 +7,14 @@
       "relationName": "Сотрудник",
       "projection": "СотрудникL",
       "detailModelName": null
+    },
+    {
+      "master": "сенсоры",
+      "displayAttributeName": null,
+      "required": true,
+      "relationName": "Контроллер.Сенсоры",
+      "projection": "СенсорыL",
+      "detailModelName": "i-i-s-programma-контроллер"
     }
   ],
   "external": false,

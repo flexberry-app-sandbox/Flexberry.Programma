@@ -52,9 +52,37 @@
           "caption": "Модель",
           "hidden": false,
           "index": 0
+        },
+        {
+          "name": "idКонтроллера",
+          "caption": "",
+          "hidden": false,
+          "index": 1
         }
       ],
-      "belongsTo": [],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Сенсоры",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "тип",
+              "caption": "",
+              "hidden": false,
+              "index": 3
+            }
+          ],
+          "index": 2,
+          "type": "default",
+          "caption": "Тип Датчика",
+          "name": "сенсоры",
+          "relatedTo": "i-i-s-programma-сенсоры",
+          "inverse": null
+        }
+      ],
       "hasMany": []
     }
   ],

@@ -29,7 +29,10 @@ namespace IIS.Programma
     [AutoAltered()]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("КонтроллерE", new string[] {
-            "Модель as \'Модель\'"})]
+            "Модель as \'Модель\'",
+            "IdКонтроллера",
+            "Сенсоры as \'Тип Датчика\'",
+            "Сенсоры.Тип"})]
     public class Контроллер : ICSSoft.STORMNET.DataObject
     {
         
