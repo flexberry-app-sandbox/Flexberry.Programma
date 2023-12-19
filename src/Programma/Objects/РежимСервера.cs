@@ -12,6 +12,7 @@ namespace IIS.Programma
 {
     using System;
     using System.Xml;
+    using ICSSoft.STORMNET;
     
     
     // *** Start programmer edit section *** (Using statements)
@@ -31,16 +32,19 @@ namespace IIS.Programma
         // *** Start programmer edit section *** (РежимСервера.Отключенный CustomAttributes)
 
         // *** End programmer edit section *** (РежимСервера.Отключенный CustomAttributes)
+        [Caption("Отключенный")]
         Отключенный,
         
         // *** Start programmer edit section *** (РежимСервера.Подключенный CustomAttributes)
 
         // *** End programmer edit section *** (РежимСервера.Подключенный CustomAttributes)
+        [Caption("Подключенный")]
         Подключенный,
         
         // *** Start programmer edit section *** (РежимСервера.Стабилизорованный CustomAttributes)
 
         // *** End programmer edit section *** (РежимСервера.Стабилизорованный CustomAttributes)
+        [Caption("Стабилизированный")]
         Стабилизорованный,
     }
 }

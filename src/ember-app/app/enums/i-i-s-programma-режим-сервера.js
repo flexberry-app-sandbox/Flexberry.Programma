@@ -1,7 +1,7 @@
 import { createEnum } from 'ember-flexberry-data/utils/enum-functions';
 
 export default createEnum({
-  Отключенный: '',
-  Подключенный: '',
-  Стабилизорованный: ''
+  Отключенный: 'Отключенный',
+  Подключенный: 'Подключенный',
+  Стабилизорованный: 'Стабилизированный'
 });

@@ -38,6 +38,7 @@ export default Controller.extend({
               link: 'i-i-s-programma-сотрудник-l',
               caption: i18n.t('forms.application.sitemap.курсовая.сотрудники.i-i-s-programma-сотрудник-l.caption'),
               title: i18n.t('forms.application.sitemap.курсовая.сотрудники.i-i-s-programma-сотрудник-l.title'),
+              icon: 'address card',
               children: null
             }]
           }, {
@@ -48,25 +49,25 @@ export default Controller.extend({
               link: 'i-i-s-programma-серверная-l',
               caption: i18n.t('forms.application.sitemap.курсовая.серверная-комната.i-i-s-programma-серверная-l.caption'),
               title: i18n.t('forms.application.sitemap.курсовая.серверная-комната.i-i-s-programma-серверная-l.title'),
-              icon: 'suitcase',
+              icon: 'edit',
               children: null
             }, {
               link: 'i-i-s-programma-расположение-l',
               caption: i18n.t('forms.application.sitemap.курсовая.серверная-комната.i-i-s-programma-расположение-l.caption'),
               title: i18n.t('forms.application.sitemap.курсовая.серверная-комната.i-i-s-programma-расположение-l.title'),
-              icon: 'book',
+              icon: 'suitcase',
               children: null
             }, {
               link: 'i-i-s-programma-сенсоры-l',
               caption: i18n.t('forms.application.sitemap.курсовая.серверная-комната.i-i-s-programma-сенсоры-l.caption'),
               title: i18n.t('forms.application.sitemap.курсовая.серверная-комната.i-i-s-programma-сенсоры-l.title'),
-              icon: 'address card',
+              icon: 'tasks',
               children: null
             }, {
               link: 'i-i-s-programma-отчет-о-сервере-l',
               caption: i18n.t('forms.application.sitemap.курсовая.серверная-комната.i-i-s-programma-отчет-о-сервере-l.caption'),
               title: i18n.t('forms.application.sitemap.курсовая.серверная-комната.i-i-s-programma-отчет-о-сервере-l.title'),
-              icon: 'chart line',
+              icon: 'chart bar',
               children: null
             }]
           }]
