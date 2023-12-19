@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-programma-сенсоры-e",
+  "editForm": "i-i-s-programma-сенсоры-e",
+  "external": false,
+  "caption": "Сенсоры",
+  "name": "IISProgrammaСенсорыL",
+  "className": "СенсорыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-programma-сенсоры",
+      "modelProjection": "СенсорыL"
+    }
+  ]
+}

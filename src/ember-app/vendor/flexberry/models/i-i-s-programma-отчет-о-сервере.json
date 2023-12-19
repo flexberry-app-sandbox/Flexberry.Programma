@@ -1,0 +1,69 @@
+﻿{
+  "name": "IISProgrammaОтчетОСервере",
+  "modelName": "i-i-s-programma-отчет-о-сервере",
+  "className": "ОтчетОСервере",
+  "nameSpace": "IIS.Programma",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "режим",
+      "type": "i-i-s-programma-режим-сервера",
+      "flexberryType": "РежимСервера",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "расположение",
+      "relatedTo": "i-i-s-programma-расположение",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "серверная",
+      "relatedTo": "i-i-s-programma-серверная",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ОтчетОСервереE",
+      "modelName": "i-i-s-programma-отчет-о-сервере",
+      "attrs": [
+        {
+          "name": "режим",
+          "caption": "Режим",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ОтчетОСервереL",
+      "modelName": "i-i-s-programma-отчет-о-сервере",
+      "attrs": [
+        {
+          "name": "режим",
+          "caption": "Режим",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

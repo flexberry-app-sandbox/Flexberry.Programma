@@ -1,0 +1,1 @@
+docker-compose -p programma-java up -d

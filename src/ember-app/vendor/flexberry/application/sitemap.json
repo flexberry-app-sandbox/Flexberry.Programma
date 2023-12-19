@@ -1,0 +1,57 @@
+﻿{
+  "applicationCaption": "Programma",
+  "applicationTitle": "Programma",
+  "items": [
+    {
+      "link": null,
+      "menuName": "programma",
+      "caption": "Programma",
+      "title": "Programma",
+      "children": [
+        {
+          "link": "i-i-s-programma-сотрудник-l",
+          "menuName": null,
+          "caption": "Сотрудник",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-programma-серверная-l",
+          "menuName": null,
+          "caption": "Серверная",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-programma-расположение-l",
+          "menuName": null,
+          "caption": "Расположение",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-programma-сенсоры-l",
+          "menuName": null,
+          "caption": "Сенсоры",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-programma-должность-l",
+          "menuName": null,
+          "caption": "Должность",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-programma-отчет-о-сервере-l",
+          "menuName": null,
+          "caption": "Отчет о сервере",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

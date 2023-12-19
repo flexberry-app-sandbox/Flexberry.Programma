@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Должность",
+  "name": "IISProgrammaДолжностьE",
+  "className": "ДолжностьE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-programma-должность",
+      "modelProjection": "ДолжностьE"
+    }
+  ]
+}

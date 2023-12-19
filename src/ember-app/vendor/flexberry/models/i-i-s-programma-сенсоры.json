@@ -1,0 +1,75 @@
+﻿{
+  "name": "IISProgrammaСенсоры",
+  "modelName": "i-i-s-programma-сенсоры",
+  "className": "Сенсоры",
+  "nameSpace": "IIS.Programma",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "idДатчика",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "тип",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "СенсорыE",
+      "modelName": "i-i-s-programma-сенсоры",
+      "attrs": [
+        {
+          "name": "тип",
+          "caption": "Тип",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "idДатчика",
+          "caption": "Id датчика",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "СенсорыL",
+      "modelName": "i-i-s-programma-сенсоры",
+      "attrs": [
+        {
+          "name": "тип",
+          "caption": "Тип",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "idДатчика",
+          "caption": "Id датчика",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

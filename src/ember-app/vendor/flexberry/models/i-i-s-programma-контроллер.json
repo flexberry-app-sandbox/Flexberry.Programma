@@ -1,0 +1,64 @@
+﻿{
+  "name": "IISProgrammaКонтроллер",
+  "modelName": "i-i-s-programma-контроллер",
+  "className": "Контроллер",
+  "nameSpace": "IIS.Programma",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "idКонтроллера",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "модель",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "сенсоры",
+      "relatedTo": "i-i-s-programma-сенсоры",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "серверная",
+      "relatedTo": "i-i-s-programma-серверная",
+      "inverse": "контроллер"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "КонтроллерE",
+      "modelName": "i-i-s-programma-контроллер",
+      "attrs": [
+        {
+          "name": "модель",
+          "caption": "Модель",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}
