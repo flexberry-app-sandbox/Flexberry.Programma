@@ -98,6 +98,42 @@ $.extend(true, translations, {
           caption: 'Home',
           title: ''
         },
+        курсовая: {
+          caption: 'Курсовая',
+          title: 'Курсовая',
+          сотрудники: {
+            caption: 'Сотрудники',
+            title: 'Сотрудники',
+            'i-i-s-programma-должность-l': {
+              caption: 'Должность',
+              title: ''
+            },
+            'i-i-s-programma-сотрудник-l': {
+              caption: 'Сотрудник',
+              title: ''
+            }
+          },
+          'серверная-комната': {
+            caption: 'Серверная комната',
+            title: 'Серверная комната',
+            'i-i-s-programma-серверная-l': {
+              caption: 'Серверная',
+              title: ''
+            },
+            'i-i-s-programma-расположение-l': {
+              caption: 'Расположение',
+              title: ''
+            },
+            'i-i-s-programma-сенсоры-l': {
+              caption: 'Сенсоры',
+              title: ''
+            },
+            'i-i-s-programma-отчет-о-сервере-l': {
+              caption: 'Отчет о сервере',
+              title: ''
+            }
+          }
+        },
         programma: {
           caption: 'Programma',
           title: 'Programma',

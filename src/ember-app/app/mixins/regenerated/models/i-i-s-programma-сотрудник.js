@@ -52,7 +52,10 @@ export let defineProjections = function (modelClass) {
     idСотрудника: attr('Id сотрудника', { index: 0 }),
     имя: attr('Имя', { index: 1 }),
     фамилия: attr('Фамилия', { index: 2 }),
-    отчество: attr('Отчество', { index: 3 })
+    отчество: attr('Отчество', { index: 3 }),
+    должность: belongsTo('i-i-s-programma-должность', 'Должность', {
+
+    }, { index: 4 })
   });
 
   modelClass.defineProjection('СотрудникL', 'i-i-s-programma-сотрудник', {

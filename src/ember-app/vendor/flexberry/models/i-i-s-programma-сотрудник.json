@@ -83,7 +83,22 @@
           "index": 3
         }
       ],
-      "belongsTo": [],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Должность",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [],
+          "index": 4,
+          "type": "default",
+          "caption": "Должность",
+          "name": "должность",
+          "relatedTo": "i-i-s-programma-должность",
+          "inverse": null
+        }
+      ],
       "hasMany": []
     },
     {

@@ -30,13 +30,11 @@ namespace IIS.Programma
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("СервернаяE", new string[] {
             "IP as \'IP\'",
-            "Настройки as \'Настройки\'",
             "Протокол as \'Протокол\'",
             "Порт as \'Порт\'",
             "IDСерверной as \'I d серверной\'",
             "Сотрудник as \'Сотрудник\'",
-            "Сотрудник.Имя as \'Имя\'"}, Hidden=new string[] {
-            "Сотрудник.Имя"})]
+            "Сотрудник.Фамилия"})]
     [AssociatedDetailViewAttribute("СервернаяE", "Контроллер", "КонтроллерE", true, "", "Контроллер", true, new string[] {
             ""})]
     [MasterViewDefineAttribute("СервернаяE", "Сотрудник", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Имя")]

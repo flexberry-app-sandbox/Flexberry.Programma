@@ -66,13 +66,12 @@ export let ValidationRules = {
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('СервернаяE', 'i-i-s-programma-серверная', {
     iP: attr('IP', { index: 0 }),
-    настройки: attr('Настройки', { index: 1 }),
-    протокол: attr('Протокол', { index: 2 }),
-    порт: attr('Порт', { index: 3 }),
-    iDСерверной: attr('I d серверной', { index: 4 }),
+    протокол: attr('Протокол', { index: 1 }),
+    порт: attr('Порт', { index: 2 }),
+    iDСерверной: attr('I d серверной', { index: 3 }),
     сотрудник: belongsTo('i-i-s-programma-сотрудник', 'Сотрудник', {
-      имя: attr('Имя', { index: 6, hidden: true })
-    }, { index: 5, displayMemberPath: 'имя' }),
+      фамилия: attr('', { index: 5 })
+    }, { index: 4, displayMemberPath: 'имя' }),
     контроллер: hasMany('i-i-s-programma-контроллер', 'Контроллер', {
       модель: attr('Модель', { index: 0 })
     })
