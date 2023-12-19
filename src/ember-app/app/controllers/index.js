@@ -22,37 +22,36 @@ export default Controller.extend({
             link: 'i-i-s-programma-сотрудник-l',
             caption: i18n.t('forms.application.sitemap.programma.i-i-s-programma-сотрудник-l.caption'),
             title: i18n.t('forms.application.sitemap.programma.i-i-s-programma-сотрудник-l.title'),
-            icon: 'suitcase',
+            icon: 'building',
             children: null
           }, {
             link: 'i-i-s-programma-серверная-l',
             caption: i18n.t('forms.application.sitemap.programma.i-i-s-programma-серверная-l.caption'),
             title: i18n.t('forms.application.sitemap.programma.i-i-s-programma-серверная-l.title'),
-            icon: 'tasks',
             children: null
           }, {
             link: 'i-i-s-programma-расположение-l',
             caption: i18n.t('forms.application.sitemap.programma.i-i-s-programma-расположение-l.caption'),
             title: i18n.t('forms.application.sitemap.programma.i-i-s-programma-расположение-l.title'),
-            icon: 'list',
+            icon: 'folder open',
             children: null
           }, {
             link: 'i-i-s-programma-сенсоры-l',
             caption: i18n.t('forms.application.sitemap.programma.i-i-s-programma-сенсоры-l.caption'),
             title: i18n.t('forms.application.sitemap.programma.i-i-s-programma-сенсоры-l.title'),
-            icon: 'paperclip',
+            icon: 'file',
             children: null
           }, {
             link: 'i-i-s-programma-должность-l',
             caption: i18n.t('forms.application.sitemap.programma.i-i-s-programma-должность-l.caption'),
             title: i18n.t('forms.application.sitemap.programma.i-i-s-programma-должность-l.title'),
-            icon: 'suitcase',
+            icon: 'archive',
             children: null
           }, {
             link: 'i-i-s-programma-отчет-о-сервере-l',
             caption: i18n.t('forms.application.sitemap.programma.i-i-s-programma-отчет-о-сервере-l.caption'),
             title: i18n.t('forms.application.sitemap.programma.i-i-s-programma-отчет-о-сервере-l.title'),
-            icon: 'phone',
+            icon: 'building',
             children: null
           }]
         }
